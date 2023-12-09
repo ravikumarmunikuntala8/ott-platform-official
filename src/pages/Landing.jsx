@@ -15,11 +15,12 @@ function Landing() {
       <Gallery />
       <div className="">
         <h2 className="text-lg lg:text-2xl font-semibold mb-2 mt-14">
-          OTT Subscriptions Coming Soon!
+          OTT Subscription Coming Soon!
         </h2>
         <p className="text-sm lg:text-lg mb-8">
           <FontAwesomeIcon icon={faRightLong} className="me-2" />
-          Sun nxt, Altt balaji, ullu, tinder, voot, Spotify, youTube Premium
+          Sun nxt, Altt balaji, Ullu, Tinder, Voot, Spotify, YouTube Premium,
+          Jiocinema, Canva pro, Google drive, Apple music.
         </p>
       </div>
       <div className="mb-80">
@@ -32,11 +33,11 @@ function Landing() {
         <ul className="flex flex-col gap-1 text-sm lg:text-md">
           <li>
             <FontAwesomeIcon icon={faCircle} className="me-2 w-2.5" />
-            10,500+ subscriptions delivered
+            10,500+ subscriptions delivered.
           </li>
           <li>
             <FontAwesomeIcon icon={faCircle} className="me-2 w-2.5" />
-            Providing services since 2021
+            Providing services since 2021.
           </li>
           <li>
             <FontAwesomeIcon icon={faCircle} className="me-2 w-2.5" />
