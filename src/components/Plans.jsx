@@ -15,7 +15,7 @@ function Plans({ data, platform }) {
   };
   return (
     <div className="plans mt-12">
-      <div className="general-info text-xl mb-20 lg:mb-48">
+      <div className="general-info text-xl mb-16 lg:mb-48">
         <h2 className="lg:text-3xl font-semibold mb-2">
           Choose the plan that's right for you
         </h2>
