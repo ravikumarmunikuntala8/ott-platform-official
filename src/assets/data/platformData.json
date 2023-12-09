@@ -1,0 +1,158 @@
+{
+  "netflix": {
+    "bgLight": "#EEBFBF",
+    "bgDark": "#F27575",
+    "buttonBg": "#E30000",
+    "checkColor": "#FF0000",
+    "textLight": "#000000",
+    "textDark": "#ffffff",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "cost": "Free Trial"
+      },
+      {
+        "duration": "3 Month",
+        "cost": "₹ 299"
+      },
+      {
+        "duration": "6 Month",
+        "cost": "₹ 599"
+      },
+      {
+        "duration": "1 Year",
+        "cost": "₹ 1099"
+      }
+    ]
+  },
+  "prime": {
+    "bgLight": "#BDE3FF",
+    "bgDark": "#549EFF",
+    "buttonBg": "#549EFF",
+    "checkColor": "#549EFF",
+    "textLight": "#000000",
+    "textDark": "#ffffff",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "cost": "Free Trial"
+      },
+      {
+        "duration": "3 Month",
+        "cost": "₹ 99"
+      },
+      {
+        "duration": "6 Month",
+        "cost": "₹ 199"
+      },
+      {
+        "duration": "1 Year",
+        "cost": "₹ 299"
+      }
+    ]
+  },
+  "hotstar": {
+    "bgLight": "#A8ABF2",
+    "bgDark": "#374FA4",
+    "buttonBg": "#374FA4",
+    "checkColor": "#A5A8F0",
+    "textLight": "#000000",
+    "textDark": "#ffffff",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "cost": "Free Trial"
+      },
+      {
+        "duration": "3 Month",
+        "cost": "₹ 99"
+      },
+      {
+        "duration": "6 Month",
+        "cost": "₹ 299"
+      },
+      {
+        "duration": "1 Year",
+        "cost": "₹ 499"
+      }
+    ]
+  },
+  "sony": {
+    "bgLight": "#6F71A9",
+    "bgDark": "#5840B7",
+    "buttonBg": "#5840B7",
+    "checkColor": "#A5A8F0",
+    "textLight": "#000000",
+    "textDark": "#ffffff",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "cost": "Free Trial"
+      },
+      {
+        "duration": "3 Month",
+        "cost": "₹ 99"
+      },
+      {
+        "duration": "6 Month",
+        "cost": "₹ 199"
+      },
+      {
+        "duration": "1 Year",
+        "cost": "₹ 349"
+      }
+    ]
+  },
+  "zee5": {
+    "bgLight": "#000000",
+    "bgDark": "#4B5030",
+    "buttonBg": "#010004",
+    "checkColor": "#A5A8F0",
+    "textLight": "#ffffff",
+    "textDark": "#000000",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "cost": "Free Trial"
+      },
+      {
+        "duration": "3 Month",
+        "cost": "₹ 99"
+      },
+      {
+        "duration": "6 Month",
+        "cost": "₹ 199"
+      },
+      {
+        "duration": "1 Year",
+        "cost": "₹ 349"
+      }
+    ]
+  },
+  "aha": {
+    "bgLight": "#F08B6B",
+    "bgDark": "#E96F3B",
+    "buttonBg": "#E96F3B",
+    "checkColor": "#E96F3B",
+    "textLight": "#ffffff",
+    "textDark": "#ffffff",
+    "plans": [
+      {
+        "duration": "1 Month",
+        "cost": "Free Trial"
+      },
+      {
+        "duration": "3 Month",
+        "cost": "₹ 99"
+      },
+      {
+        "duration": "6 Month",
+        "cost": "₹ 199"
+      },
+      {
+        "duration": "1 Year",
+        "cost": "₹ 349"
+      }
+    ]
+  }
+}
