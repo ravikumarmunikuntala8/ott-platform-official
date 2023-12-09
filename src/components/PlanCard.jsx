@@ -34,7 +34,7 @@ function PlanCard({
   return (
     <div className="plan-card flex flex-col items-center">
       <div
-        className="w-52 h-48 flex justify-center items-center mb-2 lg:mb-11 cursor-pointer"
+        className="w-20 h-16 lg:w-52 lg:h-48 flex justify-center items-center mb-2 lg:mb-11 cursor-pointer"
         style={{
           borderRadius: "16px",
           backgroundColor: theme.bgColor,
