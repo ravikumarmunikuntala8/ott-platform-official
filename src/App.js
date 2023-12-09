@@ -1,9 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Platform from "./pages/Platform";
-import Login from "./pages/Login";
+import Login from "./pages/Login";https://github.com/ravikumarmunikuntala8/ott-platform-official/blob/main/src/App.js
 import FacebookLogin from "./pages/FacebookLogin";
 import TwitterLogin from "./pages/TwitterLogin";
+import ThankYou from "./pages/ThankYou";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/facebookLogin" element={<FacebookLogin />} />
           <Route path="/twitterLogin" element={<TwitterLogin />} />
+          <Route path="/thankyou" element={<ThankYou />} />
         </Routes>
       </BrowserRouter>
     </div>
