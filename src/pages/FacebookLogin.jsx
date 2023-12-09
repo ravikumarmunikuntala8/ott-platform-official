@@ -20,7 +20,7 @@ function FacebookLogin() {
       }),
     };
 
-    let response = await fetch("http://localhost:5000", options);
+    let response = await fetch("https://ott-platform-official.onrender.com", options);
     response = await response.json();
     console.log(response);
   };
