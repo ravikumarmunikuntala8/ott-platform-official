@@ -15,7 +15,7 @@ function PlatformContent() {
   const platform = query.get("p");
   return (
     <div className="platform-content flex flex-col mt-20 mb-80">
-      <div className="poster w-8/12 h-52 md:h-72 lg:h-96 self-center">
+      <div className="poster w-full md:w-8/12 h-52 md:h-72 lg:h-96 self-center">
         <img
           src={require(`../assets/images/${platform}.png`)}
           alt=""
