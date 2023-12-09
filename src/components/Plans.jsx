@@ -3,12 +3,16 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import PlanCard from "./PlanCard";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 
 function Plans({ data }) {
+  const navigate = useNavigate();
   const [selectedPlanIndex, setSelectedPlanIndex] = useState(0);
 
   const handlePlanClick = (index) => {
     setSelectedPlanIndex(index);
+    navigate("/login");
   };
   return (
     <div className="plans mt-24">
