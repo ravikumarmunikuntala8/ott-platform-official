@@ -12,7 +12,7 @@ function Plans({ data }) {
   };
   return (
     <div className="plans mt-24">
-      <div className="general-info text-xl mb-48">
+      <div className="general-info text-xl mb-32 lg:mb-48">
         <h2 className="lg:text-3xl font-semibold mb-2">
           Choose the plan that's right for you
         </h2>
@@ -50,7 +50,7 @@ function Plans({ data }) {
         </div>
       </div>
 
-      <div className="plan-details flex flex-col lg:flex-row gap-6 items-center lg:items-end lg:me-44 mb-3.5">
+      <div className="plan-details flex flex-row gap-2 md:gap-6 items-center lg:items-end lg:me-44 mb-3.5 overflow-x-scroll text-xxs">
         <div className="grow">Monthly Plan</div>
         {data.plans.map((plan, index) => {
           return (
@@ -68,7 +68,7 @@ function Plans({ data }) {
       </div>
       <hr className="lg:me-44" />
       <Link
-        className="w-1/3 py-3.5 mx-auto block my-11 font-bold text-2xl tracking-widest flex justify-center items-center"
+        className="w-1/3 py-2.5 md:py-3.5 mx-auto block my-11 font-bold text-2xl tracking-widest flex justify-center items-center"
         style={{
           backgroundColor: data.buttonBg,
           color: "white",
