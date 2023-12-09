@@ -5,8 +5,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-
-function Plans({ data }) {
+function Plans({ data, platform }) {
   const navigate = useNavigate();
   const [selectedPlanIndex, setSelectedPlanIndex] = useState(0);
 
@@ -15,7 +14,7 @@ function Plans({ data }) {
     navigate("/login");
   };
   return (
-    <div className="plans mt-24">
+    <div className="plans mt-12">
       <div className="general-info text-xl mb-32 lg:mb-48">
         <h2 className="lg:text-3xl font-semibold mb-2">
           Choose the plan that's right for you
@@ -34,7 +33,9 @@ function Plans({ data }) {
             className="me-2"
             style={{ color: data.checkColor }}
           />
-          Separate profile with pin
+          {platform === "netflix"
+            ? "Separate profile with pin"
+            : "On your own number"}
         </div>
         <div className="text-sm md:text-lg">
           <FontAwesomeIcon
@@ -42,7 +43,9 @@ function Plans({ data }) {
             className="me-2"
             style={{ color: data.checkColor }}
           />
-          All device supported
+          {platform === "netflix"
+            ? "All device supported"
+            : "All devices supported"}
         </div>
         <div className="text-sm md:text-lg">
           <FontAwesomeIcon
@@ -50,7 +53,7 @@ function Plans({ data }) {
             className="me-2"
             style={{ color: data.checkColor }}
           />
-          Single Login{" "}
+          {platform === "netflix" ? "Single Login" : "Ad-free Streaming"}
         </div>
       </div>
 
