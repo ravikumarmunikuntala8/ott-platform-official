@@ -1,7 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useMemo } from "react";
 import platformData from "../assets/data/platformData.json";
-
 import Plans from "./Plans";
 
 function useQuery() {
