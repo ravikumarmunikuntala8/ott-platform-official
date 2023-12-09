@@ -22,6 +22,9 @@ module.exports = {
     borderRadius: {
       fifty: "50%",
     },
+    fontSize: {
+      xxs: "0.5rem",
+    },
   },
   plugins: [],
 };
