@@ -50,7 +50,7 @@ function Plans({ data }) {
         </div>
       </div>
 
-      <div className="plan-details flex flex-row gap-2 md:gap-6 items-center lg:items-end lg:me-44 mb-3.5 overflow-x-scroll text-xxs">
+      <div className="plan-details flex flex-row gap-1 md:gap-6 items-center lg:items-end lg:me-44 mb-3.5 overflow-x-scroll text-xxs">
         <div className="grow">Monthly Plan</div>
         {data.plans.map((plan, index) => {
           return (
