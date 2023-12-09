@@ -14,7 +14,7 @@ function Banner() {
           className="w-6 h-6 lg:w-8 lg:h-8 me-2 pe-2"
         />
       </Link>
-      <div className="flex grow justify-center text-xs lg:text-xl font-medium">
+      <div className="flex grow justify-center text-xxs lg:text-xl font-medium">
         <span>
           One month free trial for every service | You can use our free services
           every 24 hours. Try now!
